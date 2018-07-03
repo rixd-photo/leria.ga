@@ -984,14 +984,18 @@ b i:last-child {
 .box-words-wrapper {
     display: inline-block;
     position: relative;
+	background: rgba(255,255,255,.6);
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
 .box-words-wrapper b {
     display: inline-block;
     position: absolute;
     white-space: nowrap;
-    left: 0;
     top: 0;
+	left: 0;
+	right: 0;
 }
 
 .box-words-wrapper b.is-visible {
@@ -1124,7 +1128,7 @@ b i:last-child {
 
 	.box-intro h3 {
     font-size: 16px;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
 	}
 }
 
@@ -1745,7 +1749,6 @@ footer a:hover {
     height: 100%;
     padding: 7px;
     opacity: 0;
-    transition: all 0.5s ease 0s;
     -webkit-transition: all 850ms ease-in-out;
     -moz-transition: all 850ms ease-in-out;
     -o-transition: all 850ms ease-in-out;
