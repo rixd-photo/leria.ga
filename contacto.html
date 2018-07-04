@@ -8,6 +8,15 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
 	<meta name="description" content="Ponte en contacto con nosotros." />
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121805634-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-121805634-1');
+	</script>
+
 	<!-- STYLES -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="assets/css/flexslider.css" />
@@ -36,6 +45,7 @@
 					<a href="/"><img src="assets/img/logo.png" width="120" alt="Logo"></a>
 				</div>
 				<!-- box-nav -->
+				<a class="omenu orden" href="https://goo.gl/forms/j3LQv0DMevUT60Um1" target="_blank">Ordenar &nbsp;<i style="font-weight: bold" class="lnr lnr-chevron-right"></i></a>
 				<a class="box-primary-nav-trigger"><span class="box-menu-icon"></span></a>
 				<!-- box-primary-nav-trigger -->
 			</div>
@@ -64,62 +74,19 @@
 	<div class="site-hero-contact">
 		<div class="section-overlay"></div>
 		<div class="page-title">
-			<h2>Contacto</h2>
-			<div class="small-title">lería.ga / contacto</div>
+			<h2 style="color:#000 !important">Contacto</h2>
 		</div>
 	</div>
-
+	
 	<section class="contact_brick">
-		<div class="container mt-100">
-			<div class="row center">
-				<div class="col-md-8 col-md-offset-2 col-sm-12">
-					<div class="section-title">
-						<h2 class="mb-50">Comunícate</h2>
-						<p class="module-subtitle">Dale más a tus clientes con una solución sencilla y económica.</p>
-					</div>
-				</div>
-			</div>
-            <div class="row mt-100">
-                    <!--location-->
-                    <div class="col-md-4 col-sm-4 text-center wow slideInLeft">
-                        <div class="detail">
-                            <i class="lnr lnr-map-marker"></i>
-                            <h4><span>Encuéntranos</span></h4>
-                            <h3>Ubicación</h3>
-                                <p>Tijuana, Baja California, México</p>
-                        </div>
-                    </div>
-                    <!--end location-->
-
-                    <!--contact info-->
-                    <div class="col-md-4 col-sm-4 text-center wow slideInUp">
-                        <div class="detail">
-                            <i class="lnr lnr-phone"></i>
-                            <h4><span>Nuestro correo</span></h4>
-                            <h3>Contacto</h3>
-                            <p><abbr title="Email">E:</abbr> <a href="mailto:leria.ga@gmail.com">leria.ga@gmail.com</a></p>
-                        </div>
-                    </div>
-                    <!--end contact info-->
-
-                    <!--contact info-->
-                    <div class="col-md-4 col-sm-4 text-center wow slideInRight">
-                        <div class="detail">
-                            <i class="lnr lnr-clock"></i>
-                            <h4><span>Nos puedes encontrar</span></h4>
-                            <h3>Horario</h3>
-                            <p>
-                                L-V: 10 AM - 6 PM<br>
-                                Sa: 10 AM - 2 PM<br>
-                                Do: Cerrado
-                            </p>
-                        </div>
-                    </div>
-                    <!--end contact info-->
-                </div>
-            <!-- CONTACT FORM -->
+		<div class="container mt-50">
+			<!-- CONTACT FORM -->
             <div class="contact-form bottom">
-                <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+				<div class="row center">
+					<a href="https://goo.gl/forms/PuIjKNsMl2kRsn923" target="_blank" class="orden">Llenar forma de contacto &nbsp; <i style="font-weight: bold" class="lnr lnr-chevron-right"></i></a>
+				</div>
+				
+                <!--form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="form-group">
                         <input type="text" name="name" id="name" class="form-control" required="required" placeholder="Nombre completo">
@@ -139,8 +106,58 @@
                         <button id="submit_btn" class="default-btn gray-btn"> Enviar <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
                     </div>
                 </div>
-                </form>
+                </form> <!-- -->
             </div>
+		</div>
+	</section>
+
+	<section class="contact_brick">
+		<div class="container mt-100">
+			<div class="row center">
+				<div class="col-md-8 col-md-offset-2 col-sm-12">
+					<div class="section-title">
+						<h2 class="mb-50">Comunícate</h2>
+						<p class="module-subtitle">Dale más a tus clientes con una solución sencilla y económica.</p>
+					</div>
+				</div>
+			</div>
+			
+            <div class="row mt-50">
+                    <!--location-->
+                    <div class="col-md-4 col-sm-4 text-center wow slideInLeft">
+                        <div class="detail">
+                            <i class="lnr lnr-map-marker"></i>
+                            <h4><span>Encuéntranos</span></h4>
+                            <h3>Ubicación</h3>
+                            <p>Tijuana, Baja California, México</p>
+                        </div>
+                    </div>
+                    <!--end location-->
+
+                    <!--contact info-->
+                    <div class="col-md-4 col-sm-4 text-center wow slideInUp">
+                        <div class="detail">
+                            <i class="lnr lnr-envelope"></i>
+                            <h4><span>Nuestro correo</span></h4>
+                            <h3>Contacto</h3>
+                            <p><abbr title="Email">E:</abbr> <a href="mailto:leria.ga@gmail.com">leria.ga@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <!--end contact info-->
+
+                    <!--contact info-->
+                    <div class="col-md-4 col-sm-4 text-center wow slideInRight">
+                        <div class="detail">
+                            <i class="lnr lnr-clock"></i>
+                            <h4><span>Nos puedes encontrar</span></h4>
+                            <h3>Horario</h3>
+                            <p>L-V: 10 AM - 6 PM<br>
+                            Sa: 10 AM - 2 PM<br>
+                            Do: Cerrado</p>
+                        </div>
+                    </div>
+                    <!--end contact info-->
+                </div>
 		</div><!-- end container -->
 	</section>
 
@@ -150,17 +167,14 @@
 			<path d="M0 0 L50 100 L100 0 Z" fill="#fff" stroke="#fff"></path>
 		</svg>
             <div class="container">
-                <div class="row mt-100 mb-50 footer-widgets">
-                    <!-- Start Contact Widget -->
+                <div class="row mt-50 footer-widgets">
                     <div class="col-md-6 col-xs-12">
                         <div class="footer-widget contact-widget">
                             <img src="assets/img/footerlogo.png" class="logo-footer img-responsive" alt="Footer Logo" />
                             <p>Somos la única plataforma que te permite tener tus servicios a un click de tus clientes, dales la mejor experiencia para que puedan validar, compartir y descargar sus imágenes de una forma rápida, privada y segura.</p>
 						</div>
-                    </div><!-- .col-md-3 -->
-                    <!-- End Contact Widget -->
-
-                    <!-- Start Twitter Widget -->
+                    </div>
+					
                     <div class="col-md-3 col-xs-12">
                         <div class="footer-widget twitter-widget">
                             <h4>Comparte</h4>
@@ -168,20 +182,11 @@
                                 <li><a class="facebook" href="https://www.facebook.com/Ler%C3%ADaga-186098422216110/"><i class="fa fa-facebook"></i></a></li>
                                 <li><a class="instgram" href="https://www.instagram.com/leria.ga/"><i class="fa fa-instagram"></i></a></li>
                                 <li><a class="twitter" href="https://twitter.com/leriaga"><i class="fa fa-twitter"></i></a></li>
-                                <!--li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a class="flickr" href="#"><i class="fa fa-flickr"></i></a></li>
-                                <li><a class="tumblr" href="#"><i class="fa fa-tumblr"></i></a></li>
-                                <li><a class="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a></li>
-                                <li><a class="skype" href="#"><i class="fa fa-skype"></i></a></li-->
                             </ul><br />
 							<a href="mailto:leria.ga@gmail.com">leria.ga@gmail.com</a>
                         </div>
-                    </div><!-- .col-md-3 -->
-                    <!-- End Twitter Widget -->
+                    </div>
 
-                    <!-- Start Flickr Widget -->
                     <div class="col-md-3 col-xs-12">
                         <div class="footer-widget company-links">
                             <h4>Más información</h4>
@@ -192,17 +197,16 @@
 								<li><a href="/contacto">Contacto</a></li>
 							</ul>
                         </div>
-                    </div><!-- .col-md-3 -->
-                    <!-- End Flickr Widget -->
-                </div><!-- .row -->
+                    </div>
+                </div>
 
                 <!-- Start Copyright -->
-                <div class="copyright-section">
+                <div class="copyright-section mb-50">
                     <div class="row">
                         <div class="col-md-6">
                             <p>&copy; 2018 Lería.ga - Todos los derechos reservados.</p>
-                        </div><!-- .col-md-6 -->
-                    </div><!-- .row -->
+                        </div>
+                    </div>
                 </div>
                 <!-- End Copyright -->
             </div>
