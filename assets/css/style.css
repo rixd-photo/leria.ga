@@ -662,8 +662,15 @@ ul.tags li a:hover{
 
 .box-logo {
     display: block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+@media screen and (min-width:640px){
+.box-logo {
     padding: 20px;
     margin-left: 50px;
+}
 }
 
 .box-primary-nav-trigger {
@@ -738,11 +745,15 @@ ul.tags li a:hover{
     background-color: transparent;
     height: 30px;
     line-height: 30px;
-    right: 50px;
+    right: 20px;
     top: 50%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+@media screen and (min-width:640px){
+.box-primary-nav-trigger {right: 50px}
 }
 
 .box-primary-nav-trigger .box-menu-text {
@@ -1332,8 +1343,8 @@ footer a:hover {
 
 .facts {
 	padding: 0 0 50px 0;
-	background-color: rgba(250, 200, 150, .2);
-	border-top: 10px solid #ED693C;
+	/*background-color: rgba(250, 200, 150, .2);*/
+	border-top: 1px dashed #e0e0e1;
 }
 
 @media only screen and (max-width: 480px) {
@@ -1342,6 +1353,10 @@ footer a:hover {
 	}
 }
 
+.linea-funciona{
+	border-top: 1px dashed #e0e0e1;
+	margin-top: 50px;
+}
 
 #facts .bottom-separator {
     border-color: #f7f7f7 transparent transparent transparent;
@@ -1606,8 +1621,8 @@ footer a:hover {
 .portfolio_item:hover .portfolio_item_hover{
 	opacity: 1;
 	-webkit-transform:translateY(0);
-	    -ms-transform:translateY(0);
-	        transform:translateY(0);
+	-ms-transform:translateY(0);
+	transform:translateY(0);
 }
 
 .portfolio_item:hover .item_info em,
@@ -1615,8 +1630,8 @@ footer a:hover {
 {
 	opacity: 1;
 	-webkit-transform:translateY(0);
-	    -ms-transform:translateY(0);
-	        transform:translateY(0);
+	-ms-transform:translateY(0);
+	transform:translateY(0);
 }
 /* --------------------------------
 
@@ -1625,21 +1640,21 @@ footer a:hover {
 -------------------------------- */
 
 .team {
-		padding: 0 0 100px;
+	padding: 0 0 100px;
 }
 
 
 .process-numbers {
-		color: #ED693C;
-		font-weight: 700;
-		font-size: 150px;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-		z-index: 1;
+	color: #e0e0e1;
+	font-weight: 700;
+	font-size: 150px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	z-index: 1;
 }
 
 .team h3{
-		color: #fff;
+	color: #fff;
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 400;
@@ -1648,12 +1663,12 @@ footer a:hover {
 }
 
 @media (min-width: 1200px) {
-	.top-separator {
-    	top: -48px;
- 	}
- 	#facts .bottom-separator{
- 		bottom: -48px;
- 	}
+.top-separator {
+	top: -48px;
+}
+#facts .bottom-separator{
+	bottom: -48px;
+}
 }
 
 .member-thumb {
@@ -2385,4 +2400,26 @@ ul.services-list li{
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+.orden{
+	display:inline-block;
+	padding:1em 2em;
+	background-color:#ED693C;
+	color:white;
+	font-weight:bold;
+	letter-spacing: 0px !important;
+}
+.omenu {
+	padding:.7em 1em;
+	position: absolute;
+	right: 85px;
+	top: 18px;
+	bottom: auto;
+}
+
+@media screen and (min-width:640px){
+.omenu {
+	padding:.7em 1.3em;
+	right: 130px}
 }
