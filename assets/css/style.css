@@ -863,12 +863,17 @@ ul.tags li a:hover{
     height: 100vh;
     width: 100%;
     background-image: url(../img/header.jpg);
-	/*background-attachment: fixed;*/
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media screen and (min-width:640px){
+.box-intro {
+	background-attachment: fixed;
+}
 }
 
 .bg-film:before {
