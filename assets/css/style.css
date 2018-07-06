@@ -629,7 +629,7 @@ ul.tags li a:hover{
     height: 80px;
     background: transparent;
     box-shadow: none;
-    top: 50px;
+    top: 20px;
 }
 
 .box-header {
@@ -643,7 +643,7 @@ ul.tags li a:hover{
 
 .box-header.is-fixed {
     position: fixed;
-    top: -50px;
+    top: -20px;
     background-color: rgba(255, 255, 255, 0.96);
     -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
@@ -662,13 +662,12 @@ ul.tags li a:hover{
 
 .box-logo {
     display: block;
-    padding: 10px;
-    margin-left: 20px;
+    padding: 12px 0;
+    margin-left: 16px;
 }
 
 @media screen and (min-width:640px){
 .box-logo {
-    padding: 20px;
     margin-left: 50px;
 }
 }
@@ -745,7 +744,7 @@ ul.tags li a:hover{
     background-color: transparent;
     height: 30px;
     line-height: 30px;
-    right: 20px;
+    right: 16px;
     top: 50%;
     bottom: auto;
     -webkit-transform: translateY(-50%);
@@ -872,7 +871,7 @@ ul.tags li a:hover{
     background-size: cover;
 }
 
-.bg-film:before {
+/*.bg-film:before {
     background: url(../img/dot.gif);
     opacity: 0.03;
     content: "";
@@ -882,7 +881,7 @@ ul.tags li a:hover{
 	height: 100%;
 	width: 100%;
 	z-index: 1;
-}
+}*/
 
 .box-intro .table-cell {
     display: table-cell;
@@ -2413,7 +2412,7 @@ ul.services-list li{
 .omenu {
 	padding:.7em 1em;
 	position: absolute;
-	right: 85px;
+	right: 80px;
 	top: 18px;
 	bottom: auto;
 }
