@@ -864,8 +864,8 @@ ul.tags li a:hover{
     height: 100vh;
     width: 100%;
     background-image: url(../img/header.jpg);
-		background-attachment: fixed;
-    background-position: center center;
+	background-attachment: fixed;
+    background-position: bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
