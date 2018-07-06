@@ -862,6 +862,17 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
+    background-image: url(../img/header-m.jpg);
+	background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (min-width:640px){
+.box-intro {
     background-image: url(../img/header.jpg);
 	background-attachment: fixed;
     background-position: bottom center;
@@ -870,8 +881,9 @@ ul.tags li a:hover{
     -o-background-size: cover;
     background-size: cover;
 }
+}
 
-/*.bg-film:before {
+.bg-film:before {
     background: url(../img/dot.gif);
     opacity: 0.03;
     content: "";
@@ -881,7 +893,7 @@ ul.tags li a:hover{
 	height: 100%;
 	width: 100%;
 	z-index: 1;
-}*/
+}
 
 .box-intro .table-cell {
     display: table-cell;
