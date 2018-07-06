@@ -662,7 +662,7 @@ ul.tags li a:hover{
 
 .box-logo {
     display: block;
-    padding: 12px 0;
+    padding: 12px 8px;
     margin-left: 16px;
 }
 
@@ -862,25 +862,13 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/header-m.jpg);
-	background-attachment: fixed;
+    background-image: url(../img/header.jpg);
+	/*background-attachment: fixed;*/
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-@media screen and (min-width:640px){
-.box-intro {
-    background-image: url(../img/header.jpg);
-	background-attachment: fixed;
-    background-position: bottom center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 }
 
 .bg-film:before {
