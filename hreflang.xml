@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<url>
+		<loc>https://leria.ga/</loc>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://leria.ga/" />
+	</url>
+	<url>
+		<loc>https://leria.ga/precios</loc>
+		<xhtml:link rel="alternate" hreflang="es-mx" href="https://leria.ga/precios" />
+	</url>
+	<url>
+		<loc>https://leria.ga/como-funciona</loc>
+		<xhtml:link rel="alternate" hreflang="es-mx" href="https://leria.ga/como-funciona" />
+	</url>
+	<url>
+		<loc>https://leria.ga/muestra</loc>
+		<xhtml:link rel="alternate" hreflang="es-mx" href="https://leria.ga/muestra" />
+	</url>
+	<url>
+		<loc>https://leria.ga/contacto</loc>
+		<xhtml:link rel="alternate" hreflang="es-mx" href="https://leria.ga/contacto" />
+	</url>
+</urlset>
